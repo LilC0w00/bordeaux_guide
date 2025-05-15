@@ -1,0 +1,158 @@
+body {
+    margin:0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+    height: 900px;
+}
+
+#hero {
+    background-image: url("https://images.unsplash.com/photo-1493564738392-d148cfbd6eda?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-position: 0 -180px;
+
+
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    background-color: #A83434;
+    border-radius: 10px;
+    font-size: 4rem;
+
+    padding: 10px;
+    margin-top: 80px;
+}
+
+h3 {
+    background-color: #3C0F0F;
+    border-radius: 10px;
+    font-size: 2rem;
+
+    padding: 30px;
+}
+
+#activities {
+    background-color: #FFD4D4;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: #3C0F0F;
+}
+
+#activities h2 {
+    margin: 130px 0;
+    font-size: 3rem;
+}
+
+#presentaion {
+    display: flex;
+    flex-direction: row;
+    gap: 290px;
+}
+
+.card {
+    text-align: center;
+}
+
+.card h4 {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+#activities img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: all 0.3s ease-out;
+}
+
+#activities img:hover {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+}
+
+#guide {
+    background-color: #C07272;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+#guid-card {
+    height: 540px;
+    width: 750px;
+    border-radius: 10px;
+
+    background-color: whitesmoke;
+    box-shadow: 0 6px 0 3px;
+    color: #3C0F0F;
+
+    padding:30px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    transition: ease 0.5s;
+}
+
+#guid-card:hover {
+    background-color: #3C0F0F;
+    color: white;
+}
+
+#guid-card img {
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 1px #3C0F0F solid;
+    margin-left: 50px;
+    transition: all ease 0.6s;
+}
+
+#guid-card img:hover {
+    width: 400px;
+}
+
+#text-guid {
+    text-align: center;
+    margin-right: 40px;
+    height: 450px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#text-guid h4 {
+    font-size: 2.1rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+#text-guid p {
+    font-size: 1rem;
+    padding: 0 20px;
+}
+
+#text-guid h5 {
+    font-size: 1.2rem;
+}
+
